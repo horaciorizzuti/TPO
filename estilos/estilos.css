@@ -94,3 +94,70 @@ body {
 	}
 }
 
+
+
+.contenedor-nosotros {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.contenedor-nosotros>h2 {
+	color: #613421;
+	font-size: 3rem;
+	margin: 20px;
+	text-align: center;
+}
+
+
+.mision {
+	background-color: #613421;
+	color: antiquewhite;
+	margin: 30px auto 50px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.seccion {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cafe {
+	background-color: #b9926b;
+	margin: auto;
+	padding: 20px;
+	width: 50%;
+	border-radius: 10px;
+	text-align: center;
+	}
+
+
+.personal {
+	background-color: bisque;
+	margin: 20px 0 50px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+
+
+.granoscafe {
+	margin: auto;
+		
+}
+
+.cafe-imagen {
+	margin: auto;
+}
+
+.contenedor-footer {
+	background: #613421;
+	color: #fff;
+	grid-area: footer;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+}
