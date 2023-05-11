@@ -21,13 +21,13 @@ body {
 	grid-template-rows: repeat(3, auto);
 
 	grid-template-areas: "header header header"
-						 "contenido contenido contenido"
-						 "footer footer footer";
+		"contenido contenido contenido"
+		"footer footer footer";
 
 }
 
 
-.contenedor > div,
+.contenedor>div,
 .contenedor .header,
 .contenedor .contenido,
 .contenedor .footer {
@@ -37,7 +37,7 @@ body {
 
 }
 
-.navbar{
+.navbar {
 	background: #613421 !important;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .contenedor .footer .sm {
-	display:flex;
+	display: flex;
 	text-align: center;
 	justify-content: space-evenly;
 	padding: 10px;
@@ -72,25 +72,25 @@ body {
 }
 
 .carousel-indicators button {
-    height: 10px !important;
-    width: 10px !important;
-    margin: 0 10px !important;
-    border-radius: 100%;
-    background-color: whitesmoke !important;
+	height: 10px !important;
+	width: 10px !important;
+	margin: 0 10px !important;
+	border-radius: 100%;
+	background-color: whitesmoke !important;
 }
 
-.carousel-inner > .carousel-item > img {
+.carousel-inner>.carousel-item>img {
 	object-fit: scale-down !important;
 	height: 74vh !important;
 	width: 100% !important;
-  }
+}
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 	.contenedor {
 		grid-template-areas: "header header header"
-						 	"contenido contenido contenido"
-						 	"footer footer footer";
+			"contenido contenido contenido"
+			"footer footer footer";
 	}
 }
 
@@ -99,14 +99,14 @@ body {
 .contenedor-nosotros {
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	
 }
 
-.contenedor-nosotros>h2 {
+.contenedor-nosotros h2 {
 	color: #613421;
 	font-size: 3rem;
-	margin: 20px;
+	margin: 21px;
 	text-align: center;
 }
 
@@ -114,14 +114,16 @@ body {
 .mision {
 	background-color: #613421;
 	color: antiquewhite;
-	margin: 30px auto 50px;
+	margin: 50px auto;
 	padding: 20px;
 	border-radius: 10px;
+	box-shadow: 0 .3rem 3rem #b9926b;
 }
 
 .seccion {
 	display: flex;
 	justify-content: space-between;
+	margin: 30px auto;
 }
 
 .cafe {
@@ -131,21 +133,20 @@ body {
 	width: 50%;
 	border-radius: 10px;
 	text-align: center;
-	}
+}
 
 
 .personal {
 	background-color: bisque;
-	margin: 20px 0 50px;
+	margin: 50px auto 70px;
 	padding: 20px;
 	border-radius: 10px;
+	text-align: center;
 }
-
 
 
 .granoscafe {
 	margin: auto;
-		
 }
 
 .cafe-imagen {
@@ -160,4 +161,26 @@ body {
 	align-items: center;
 	text-align: center;
 	justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+
+	.seccion {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.granoscafe {
+		transform: translateX(100px);
+		transition: transform 3s;
+	}
+
+	.cafe-imagen {
+		transform: translateX(-100px);
+		transition: transform 3s;
+	}
+
+	.cafe {
+		width: auto;
+	}
 }
