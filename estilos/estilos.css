@@ -42,6 +42,10 @@ body {
 	grid-area: header;
 }
 
+.logoYmarca{
+	display: flex;
+	justify-content: space-between;
+}
 .nav-item:hover{
 	border-radius: 5px;
 	background-color: #b9926b;

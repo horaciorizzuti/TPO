@@ -11,7 +11,7 @@ const getDataTime = async ()=>{
     let dirIconPng = dirIcon.replace(".gif",".png")
 
 
-    //console.log(resultado)
+    // console.log(resultado)
     // console.log(dirIcon)
     // console.log(temp)
     // console.log(timeC)
