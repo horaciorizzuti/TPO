@@ -59,7 +59,10 @@ body {
   .navbar-brand > img{
 	width: 7.5%;
   }
- 
+
+ .Newlogo{
+	min-width: 50px;
+ }
 
   h5{
 	font-family:'Pacifico', cursive;
