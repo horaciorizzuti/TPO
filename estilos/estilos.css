@@ -28,11 +28,11 @@ body {
 .contenedor .contenido,
 .contenedor .footer {
 	/* background: #fff; */
-	background: white;
+	background: #b9926b;
 	padding: 0px;
 }
 
-.navbar {
+.navbar{
 	background: #613421 !important;
 }
 
@@ -59,7 +59,10 @@ body {
   .navbar-brand > img{
 	width: 7.5%;
   }
- 
+
+ .Newlogo{
+	min-width: 50px;
+ }
 
   h5{
 	font-family:'Pacifico', cursive;
@@ -81,7 +84,7 @@ body {
 }
 
 .contenedor .footer .sm {
-	display: flex;
+	display:flex;
 	text-align: center;
 	justify-content: space-evenly;
 	padding: 10px;
@@ -106,27 +109,26 @@ body {
 
 
 .carousel-indicators button {
-	height: 10px !important;
-	width: 10px !important;
-	margin: 0 10px !important;
-	border-radius: 100%;
-	background-color: whitesmoke !important;
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color: whitesmoke !important;
 }
 
-.carousel-inner>.carousel-item>img {
+.carousel-inner > .carousel-item > img {
 	object-fit: scale-down !important;
 	height: 74vh !important;
 	width: 100% !important;
-}
+  }
 
 @media screen and (max-width: 768px){
 	.contenedor {
 		grid-template-areas: "header header header"
-			"contenido contenido contenido"
-			"footer footer footer";
+						 	"contenido contenido contenido"
+						 	"footer footer footer";
 	}
 }
-
 
 
 .contenedor-nosotros {
