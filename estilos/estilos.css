@@ -12,7 +12,7 @@ body {
 .contenedor {
 	width: 100%;
 	/* max-width: 1000px; */
-	height: 100vh;
+	/* height: 100vh; */
 	/* margin: 5px auto; */
 	display: grid;
 	/* grid-gap: 10px; */
@@ -220,6 +220,10 @@ body {
 	}
 }
 /* Comienzo del Main */
+
+.contenedor-menu{
+	background-color: #fff;
+}
 
 .menu-cafe { 
 	display: flex;

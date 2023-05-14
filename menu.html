@@ -25,7 +25,7 @@
   </head>
 
   <body>
-    <div class="contenedor">
+    <div class="contenedor-menu">
       <header class="header">
         <iframe
           src="header.html"
@@ -235,13 +235,16 @@
 
 
       </main>
+      <div class="contenedor">
 
-      <footer class="footer">
-        <iframe
-          src="footer.html"
-          onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"
-        ></iframe>
-      </footer>
+        <footer class="footer">
+          <iframe
+            src="footer.html"
+            onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"
+          ></iframe>
+        </footer>
+      </div>
+
     </div>
 
     <script
