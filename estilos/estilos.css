@@ -213,7 +213,7 @@ body {
 	.cafe-imagen {
 		transform: translateX(-100px);
 		transition: transform 5s;
-		transition-delay: 10s;
+		transition-delay: 5s;
 	}
 
 	.cafe {
