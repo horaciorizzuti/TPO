@@ -207,12 +207,13 @@ body {
 
 	.granoscafe {
 		transform: translateX(100px);
-		transition: transform 3s;
+		transition: transform 5s;
 	}
 
 	.cafe-imagen {
 		transform: translateX(-100px);
-		transition: transform 3s;
+		transition: transform 5s;
+		transition-delay: 15s;
 	}
 
 	.cafe {
